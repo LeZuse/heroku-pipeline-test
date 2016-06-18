@@ -1,5 +1,5 @@
 {
-  "name": "staging",
+  "name": "heroku-pipeline-test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
