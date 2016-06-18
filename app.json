@@ -1,0 +1,22 @@
+{
+  "name": "heroku-pipeline-test",
+  "scripts": {
+    "postdeploy": "scripts/heroku/setup",
+    "pr-predestroy": "scripts/heroku/teardown"
+  },
+  "env": {
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
