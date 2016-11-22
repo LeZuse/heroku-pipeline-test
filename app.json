@@ -12,7 +12,7 @@
     }
   },
   "addons": [
-
+    "heroku-redis:hobby-dev"
   ],
   "buildpacks": [
     {
